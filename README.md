@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center">https-saleor-dev-local</h1>
+  <h1 align="center">django-sslserver2</h1>
   <h4 align="center">
     Django package to support both HTTP and HTTPS as runserver command
   </h4>
@@ -10,7 +10,7 @@
 1. Install this package in you Django project
 
 ```bash
-pip install django-sslserver
+pip install django-sslserver2
 ```
 
 2. Update Django's `settings.py`
