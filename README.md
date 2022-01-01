@@ -25,7 +25,7 @@ INSTALLED_APPS = (...
 3. Execute you Django server:
 
 ```bash
-python manage.py runsslserver2 --certificate cert.pem --key key.pem
+python manage.py runsslserver --certificate cert.pem --key key.pem
 ```
 
 ## Development

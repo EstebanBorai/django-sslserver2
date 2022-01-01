@@ -61,6 +61,8 @@ class Command(runserver.Command):
     runserver command.
     """
 
+    help = "Spawns a thread running a HTTPS server with the provided configuration along with the default runserver command"
+
     def add_arguments(self, parser):
         super(Command, self).add_arguments(parser)
 
