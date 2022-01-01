@@ -62,7 +62,7 @@ class Command(runserver.Command):
     """
 
     def add_arguments(self, parser):
-        super().add_arguments(parser)
+        super(Command, self).add_arguments(parser)
 
         parser.add_argument("--certificate", help="Path to SSL certificate file")
         parser.add_argument("--key", help="Path to SSL certificate key")
