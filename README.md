@@ -17,7 +17,7 @@ pip install django-sslserver2
 
 ```bash
 INSTALLED_APPS = (...
-    'sslserver2',
+    'django_sslserver2',
     ...
 )
 ```

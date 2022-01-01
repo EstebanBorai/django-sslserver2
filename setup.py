@@ -1,7 +1,7 @@
-import sslserver2
+import django_sslserver2
 
 from pathlib import Path
-from setuptools import setup, find_packages
+from setuptools import setup
 
 CWD = Path(__file__).parent
 
@@ -25,7 +25,11 @@ setup(
     long_description=README,
     long_description_content_type="text/markdown",
     name="django-sslserver2",
-    packages=["sslserver2"],
+    packages=[
+        'django_sslserver2',
+        'django_sslserver2.management',
+        'django_sslserver2.management.commands'
+    ],
     url="https://github.com/EstebanBorai/django-sslserver2",
-    version=sslserver2.__version__,
+    version=django_sslserver2.__version__,
 )
