@@ -46,3 +46,23 @@ Run the following command to generate or overwrite the `requirements.txt` file:
 ```bash
 pipenv lock -r > requirements.txt
 ```
+
+## Releasing
+
+1. Install `twine`
+
+```bash
+pip install twine
+```
+
+2. Build package distribution
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+3. Upload distribution
+
+```bash
+twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+```
