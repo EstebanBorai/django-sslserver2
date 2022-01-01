@@ -6,4 +6,4 @@
 #
 
 -i https://pypi.org/simple
-django==4.0
+django==3
